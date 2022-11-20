@@ -1,0 +1,12 @@
+
+table{
+    max-width: 1000px;
+    margin: auto;
+}
+th{
+    text-align: start;
+    font-family: sans-serif;
+}
+td{
+    text-align: end;
+}
