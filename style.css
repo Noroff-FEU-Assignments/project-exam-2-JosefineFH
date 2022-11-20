@@ -1,12 +1,40 @@
-
-table{
-    max-width: 1000px;
+table {
+    width: 100%;
     margin: auto;
+    border-collapse: collapse;
+    border: none;
 }
-th{
+
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
     text-align: start;
-    font-family: sans-serif;
 }
-td{
+
+td {
     text-align: end;
+}
+
+tr:hover {
+    background-color: #7bb8af;
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+}
+
+.colours {
+    color: white;
+    background-color: #032D29;
+}
+
+a{
+    font-family: sans-serif;
+    color: blue;
+    text-decoration: none;
 }
